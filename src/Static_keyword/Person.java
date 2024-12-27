@@ -1,0 +1,43 @@
+package Static_keyword;
+
+public class Person {
+
+    private static String name = "Akash";
+
+    private String phone;
+
+    private String address;
+
+    public String gender;
+
+    public static int count;
+
+
+    public static String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String printMsg(){
+        return "Hello from person class";
+    }
+}
